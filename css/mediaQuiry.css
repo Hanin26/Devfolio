@@ -1,0 +1,59 @@
+@media all and (max-width:768px) {
+    #home .cap h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    #home .text{
+        font-size: 25px;
+    }
+    .about .container , .contact .container{
+        width: 95%;
+    }
+    .about .info .sec{
+        width: 100% !important;
+    }
+    .about .info .image ,.about .info .text{
+        width: 100%;
+    }
+    .about .info .image{
+        width: 50%;
+    }
+    .about .info .text{
+        margin-bottom: 15px;
+    }
+    .services .cap::after, .blog .cap::after{
+        top: 210px;
+    }
+    .work .cap::after{
+        top:170px;
+    }
+    .contact .part{
+       width: 100% !important;
+    }
+    .contact{
+        height: 220vh !important;
+    }
+    
+}
+@media all and (max-width:992px) {
+    #home .cap h1{
+        font-size: 60px;
+        text-align: center;
+    }
+    #home .text{
+        font-size: 35px;
+    }
+    .about .info .sec{
+        width: 40%;
+    }
+    .carousel-inner img{
+        width: 25% !important;
+    }
+    .contact .part{
+       width: 40%;
+    }
+    .contact{
+        height: 120vh;
+    }
+    
+}
